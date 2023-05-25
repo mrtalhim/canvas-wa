@@ -27,7 +27,7 @@ loadImage('./lime-cat.jpg').then(img => {
     context.fillText(input.aims, img.width / 2 - 125, img.height / 2 + 5)
     context.fillText(input.cabang, img.width / 2 - 125, img.height / 2 + 70)
     context.textAlign = "center";
-    context.fillText(input.skor, img.width / 2, img.height / 2 + 250)
+    context.fillText(input.skor, img.width / 2, img.height / 2 + 255)
 
     // Write the image to file
     const buffer = canvas.toBuffer("image/png");
