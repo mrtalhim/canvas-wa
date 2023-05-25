@@ -3,6 +3,7 @@
         "draw": "node canvas.js"
     },
     "dependencies": {
-        "canvas": "^2.11.2"
+        "canvas": "^2.11.2",
+        "qrcode-terminal": "^0.12.0"
     }
 }
